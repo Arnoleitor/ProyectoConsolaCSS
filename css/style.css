@@ -15,21 +15,37 @@ body{
 #consola{
     position: relative;
     background-color: goldenrod;
-    width: 50vw;
-    height: 50vh;
+    width: 48vw;
+    height: 37vh;
     border-radius: 10px;
     display: flex;
     align-content: space-around;
     justify-content: space-around;
     align-items: center;
+    border: #b30909 15px outset;
+   
 }
    
    
 
 #bordepantalla{
-    background-color: gray;
-    width: 25%;
-    height: 25%;
+    background-color: goldenrod;
+    width: 46%;
+    height: 83%;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    border: #b39809 15px outset;
+
    
+}
+
+#pantalla{
+    background-color: black;
+    width: 92%;
+    height: 75%;
+    border: red 7px groove;
+    border-radius: 13px;
+    
 }
