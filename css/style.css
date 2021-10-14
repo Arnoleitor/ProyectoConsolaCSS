@@ -2,7 +2,7 @@ body{
     height: 100%;
     width: 100%;
     margin: 0,0,0,0;
-    background-color: cadetblue;
+    background-image: url(/images/27737.jpg)
 }
 
 #container{
@@ -10,11 +10,14 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 10%;
+    
+    
 }
 
 #consola{
     position: relative;
-    background-color: goldenrod;
+    background-image: url(/images/textura\ consola.png);
+    background-size: 459px;
     width: 48vw;
     height: 37vh;
     border-radius: 10px;
@@ -23,6 +26,8 @@ body{
     justify-content: space-around;
     align-items: center;
     border: #b30909 15px outset;
+
+
    
 }
    
@@ -36,7 +41,8 @@ body{
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
-    border: #b39809 15px outset;
+    border: #B39874 15px outset;
+    background-image: url(/images/textura\ consola.png);
 
    
 }
@@ -45,7 +51,16 @@ body{
     background-color: black;
     width: 92%;
     height: 75%;
-    border: red 7px groove;
+    border:#b30909 9px groove;
     border-radius: 13px;
+    background-image: url(/images/pantallafondo.png);
+    background-position: center center;
+    background-size: 257px;
+}
     
+    
+#pegatina1{
+    background-color: green;
+    width:50px;
+    height: 50px;
 }
