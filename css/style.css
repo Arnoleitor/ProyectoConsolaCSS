@@ -133,6 +133,8 @@ body{
     padding: 2;
     margin: 2;
 }
+
+/* todo esto es la parte de la cruceta------------------------------------------------------------- */
 .cruceta {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -149,7 +151,7 @@ body{
       
   }
   
-  .cruzarriba  { grid-area: arriba;background-image: url(/images/boton.jpg)
+  .cruzarriba  { grid-area:arriba;background-image: url(/images/boton.jpg)
     ;border-radius: 5px 5px 0px 0px;
     border-left: outset #b30909;
     border-right: ridge #b30909;
@@ -181,7 +183,7 @@ body{
      border-right: outset #b30909;
      border-top: outset #b30909;
     }
-  
+  /* Esta parte son los botones rojos A y B-------------------------------------------- */
 .boton1{
     background-color: black;
     width: 36%;
