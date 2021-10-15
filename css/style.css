@@ -2,7 +2,7 @@ body{
     height: 100%;
     width: 100%;
     margin: 0,0,0,0;
-    background-image: url(/images/fondo.jpg);
+    background-image: url(/images/fondonuevo.jpg);
 }
 
 #container{
@@ -150,21 +150,37 @@ body{
   }
   
   .cruzarriba  { grid-area: arriba;background-image: url(/images/boton.jpg)
-    ;border-radius: 5px 5px 0px 0px; }
+    ;border-radius: 5px 5px 0px 0px;
+    border-left: outset #b30909;
+    border-right: ridge #b30909;
+    border-top: groove #b30909; 
+}
   
   .cruzizquierda { 
     grid-area: izquierda;
     background-image: url(/images/boton.jpg);
      border-radius: 5px 0px 0px 5px; 
+     border-bottom: ridge #b30909;
+     border-left: outset #b30909;
+     border-top: groove #b30909;
     }
   
   .cruzabajo { grid-area: abajo;background-image: url(/images/boton.jpg);
-    border-radius: 0px 0px 5px 5px;; }
+    border-radius: 0px 0px 5px 5px;
+    border-bottom: ridge #b30909;
+    border-left: outset #b30909;
+    border-right: ridge #b30909;
+
+    
+}
   
   .cruzcentro { grid-area: centro; background-image: url(/images/boton.jpg);}
   
   .cruzderecha { grid-area: derecha;background-image: url(/images/boton.jpg);
-     border-radius: 0px 5px 5px 0px;}
+     border-radius: 0px 5px 5px 0px; border-bottom: ridge #b30909;
+     border-right: outset #b30909;
+     border-top: outset #b30909;
+    }
   
 .boton1{
     background-color: black;
