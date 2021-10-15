@@ -234,31 +234,6 @@ body{
     justify-content: space-evenly;
 }
 
-.game{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 200;
-    font-size: 13px;
-    line-height: 0.1;
-    padding: 2;
-    margin: 2;
-    
-}
-.time{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 200;
-    font-size: 13px;
-    line-height: 0.1;
-    padding: 2;
-    margin: 2;
-}
-.pause{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 200;
-    font-size: 13px;
-    line-height: 0.1;
-    padding: 2;
-    margin: 2;
-}
 .pequenos{
     width: 36%;
     height: 37%;
@@ -295,3 +270,29 @@ body{
         border-radius: 118px;
         background-image: url(/images/texturabotonespequeños.jpg);
         border: #b30909 7px outset;}
+
+        /* .game{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 200;
+            font-size: 13px;
+            line-height: 0.1;
+            padding: 2;
+            margin: 2;
+            
+        }
+        .time{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 200;
+            font-size: 13px;
+            line-height: 0.1;
+            padding: 2;
+            margin: 2;
+        }
+        .pause{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 200;
+            font-size: 13px;
+            line-height: 0.1;
+            padding: 2;
+            margin: 2;
+        } */
