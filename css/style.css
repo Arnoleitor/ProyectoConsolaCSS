@@ -35,7 +35,7 @@ body{
 
 #bordepantalla{
     background-color: goldenrod;
-    width: 45%;
+    width: 53%;
     height: 83%;
     display: flex;
     justify-content: space-around;
@@ -56,7 +56,7 @@ body{
     border-radius: 13px;
     /* background-image: url(/images/pantallafondo.png); */
     background-position: center center;
-    background-size: 289px;
+    background-size: 326px;
     background-image: url(/images/gif2.gif);
 
 }
@@ -120,8 +120,43 @@ body{
     width: 100px;
 }
 
-.fuenteletras{
+#fuenteletras{
     font-family: cursive;
     font-weight: 200;
     font-size: 13px;
+    line-height: 0.1;
 }
+.cruceta {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". arriba ."
+      "izquierda centro derecha"
+      ". abajo .";
+      height: 100px;
+      width: 100px;
+      margin: auto;
+      
+  }
+  
+  .cruzarriba  { grid-area: arriba;background-image: url(/images/boton.jpg)
+    ;border-radius: 5px 5px 0px 0px; }
+  
+  .cruzizquierda { 
+    grid-area: izquierda;
+    background-image: url(/images/boton.jpg);
+     border-radius: 5px 0px 0px 5px; 
+    }
+  
+  .cruzabajo { grid-area: abajo;background-image: url(/images/boton.jpg);
+    border-radius: 0px 0px 5px 5px;; }
+  
+  .cruzcentro { grid-area: centro; background-image: url(/images/boton.jpg);}
+  
+  .cruzderecha { grid-area: derecha;background-image: url(/images/boton.jpg);
+     border-radius: 0px 5px 5px 0px;}
+  
+
