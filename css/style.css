@@ -35,7 +35,7 @@ body{
 
 #bordepantalla{
     background-color: goldenrod;
-    width: 46%;
+    width: 45%;
     height: 83%;
     display: flex;
     justify-content: space-around;
@@ -53,9 +53,11 @@ body{
     height: 75%;
     border:#b30909 9px groove;
     border-radius: 13px;
-    background-image: url(/images/pantallafondo.png);
+    /* background-image: url(/images/pantallafondo.png); */
     background-position: center center;
     background-size: 289px;
+    background-image: url(/images/gif.gif);
+
 }
     
     
@@ -64,3 +66,51 @@ body{
     width:50px;
     height: 50px;
 }
+
+.izquierda{
+    width: 27.5%;
+    height: 100%;
+    
+}
+
+.derecha{
+    width: 27.5%;
+    height: 100%;
+    
+}
+
+.pegatina{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.cruceta{
+    width: 100%;
+    height: 50%;
+  
+}
+
+.pequenos{
+    width: 100%;
+    height: 50%;
+  
+}
+
+.botonayb{
+    width: 100%;
+    height: 50%;
+   
+}
+#pegatina{
+    border: black 1px solid;
+    border-radius: 5px;
+}
+
+.gif{
+    
+}
+
