@@ -18,8 +18,8 @@ body{
     position: relative;
     background-image: url(/images/textura\ consola.png);
     background-size: 513px;
-    width: 39vw;
-    height: 39vh;
+    width: 574px;
+    height: 327px;
     border-radius: 10px;
     display: flex;
     align-content: space-around;
@@ -43,6 +43,7 @@ body{
     border-radius: 10px;
     border: #B39874 15px outset;
     background-image: url(/images/textura\ consola.png);
+    flex-direction: column;
 
    
 }
@@ -56,7 +57,7 @@ body{
     /* background-image: url(/images/pantallafondo.png); */
     background-position: center center;
     background-size: 289px;
-    background-image: url(/images/gif.gif);
+    background-image: url(/images/gif2.gif);
 
 }
     
@@ -110,7 +111,17 @@ body{
     border-radius: 5px;
 }
 
-.gif{
-    
+.cruceta{
+    width: 50%;
+    height: 50%;
 }
 
+#logonintendo{
+    width: 100px;
+}
+
+.fuenteletras{
+    font-family: cursive;
+    font-weight: 200;
+    font-size: 13px;
+}
