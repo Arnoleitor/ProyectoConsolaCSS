@@ -7,10 +7,15 @@ Se puede apreciar que la pantalla esta animada con 2 gif , uno en la propia pant
 
 ademas hay un minirreproductor arriba a la izquierda donde puedes darle play o pause, y ajustar la velocidad de reproducción.
 
+
+--------Esta es la previsualización del proyecto--------
 <p aling="center">
   <img src="/images/proyectoconsola2.png" width="500" title="hover text">
 </p>
 
+
+--------Este gif es el de la pantalla--------
 <p aling="center">
   <img src="/images/gif2.gif" width="500" title="hover text">
 </p>
+
