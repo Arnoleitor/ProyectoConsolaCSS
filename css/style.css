@@ -298,3 +298,42 @@ body{
             line-height: 0.1;
             
         } 
+/* --------------------EFECTOS EN LOS BOTONES------------------------ */
+        .boton1:hover {
+            box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);
+            outline-color: rgba(49, 138, 172, 0);
+            outline-offset: 80px;
+            text-shadow: 1px 1px 6px rgb(255, 255, 255);
+          }
+          .boton2:hover {
+            box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);
+            outline-color: rgba(49, 138, 172, 0);
+            outline-offset: 80px;
+            text-shadow: 1px 1px 6px rgb(255, 255, 255);
+          }
+
+          .centro:hover{
+            box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);
+            outline-color: rgba(49, 138, 172, 0);
+            outline-offset: 80px;
+            text-shadow: 1px 1px 6px rgb(255, 255, 255);
+            
+          }
+          .arriba:hover{
+            box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);
+            outline-color: rgba(49, 138, 172, 0);
+            outline-offset: 80px;
+            text-shadow: 1px 1px 6px rgb(255, 255, 255);
+          }
+          .abajo:hover{
+            box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);
+            outline-color: rgba(49, 138, 172, 0);
+            outline-offset: 80px;
+            text-shadow: 1px 1px 6px rgb(255, 255, 255);
+          }
+        #pantalla{
+            box-shadow: inset 0 0 40px rgba(255, 255, 255, 0.966), 0 0 20px rgba(255, 255, 255, 0.966);
+            outline-color: rgba(49, 138, 172, 0);
+            outline-offset: 80px;
+        }
+        
