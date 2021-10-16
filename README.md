@@ -8,5 +8,5 @@ Se puede apreciar que la pantalla esta animada con 2 gif , uno en la propia pant
 ademas hay un minirreproductor arriba a la izquerda donde puedes darle play o pause, y ajustar la velocidad de reproducción.
 
 <p aling="center">
-  <img src="/images/proyectoconsola2.png" width="350" title="hover text">
+  <img src="/images/proyectoconsola2.png" width="500" title="hover text">
 </p>
