@@ -231,7 +231,8 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
 }
 
 .pequenos{
@@ -264,35 +265,29 @@ body{
         background-image: url(/images/texturabotonespequeños.jpg);
         border: #b30909 7px outset;}
       
-      .abajo { grid-area: abajo;
+        .abajo { grid-area: abajo;
         width: 28px;
         height: 17px;
         border-radius: 118px;
         background-image: url(/images/texturabotonespequeños.jpg);
         border: #b30909 7px outset;}
 
-        /* .game{
+        #PEQUENOCENTRO{
             font-family: Arial, Helvetica, sans-serif;
-            font-weight: 200;
-            font-size: 13px;
+            font-size: 10px;
             line-height: 0.1;
-            padding: 2;
-            margin: 2;
+        
             
         }
-        .time{
+        #PEQUENOARRIBA{
             font-family: Arial, Helvetica, sans-serif;
-            font-weight: 200;
-            font-size: 13px;
+            font-size: 10px;
             line-height: 0.1;
-            padding: 2;
-            margin: 2;
+          
         }
-        .pause{
+        #PEQUENOABAJO{
             font-family: Arial, Helvetica, sans-serif;
-            font-weight: 200;
-            font-size: 13px;
+            font-size: 10px;
             line-height: 0.1;
-            padding: 2;
-            margin: 2;
-        } */
+            
+        } 
