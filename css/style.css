@@ -1,30 +1,32 @@
-body{
+body {
     height: 100%;
     width: 100%;
     margin: 0;
-    background-image: url(/images/fondonuevo.jpg);
+    background-image: url(../images/fondonuevo.jpg);
 }
-#mario3d{
+
+#mario3d {
     height: 27vh;
-    background-image: url(/images/super-mario-bros.gif);
+    background-image: url(../images/super-mario-bros.gif);
     display: flex;
     flex-direction: row;
     margin-right: 1600px;
     display: flex;
 }
-#container{
+
+#container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 28vh;
-    
-    
-    
+
+
+
 }
 
-#consola{
+#consola {
     position: relative;
-    background-image: url(/images/textura\ consola.png);
+    background-image: url(../images/textura\ consola.png);
     background-size: 461px;
     width: 629px;
     height: 327px;
@@ -36,13 +38,13 @@ body{
     border: #b30909 15px outset;
 
 
-   
+
 }
-   
-   
+
+
 /* LO QUE RODEA LA PANTALLA */
 
-#bordepantalla{
+#bordepantalla {
     background-color: goldenrod;
     width: 53%;
     height: 83%;
@@ -51,89 +53,92 @@ body{
     align-items: center;
     border-radius: 10px;
     border: #B39874 15px outset;
-    background-image: url(/images/textura\ consola.png);
+    background-image: url(../images/textura\ consola.png);
     flex-direction: column;
 
-   
+
 }
+
 /* LA PANTALLA */
 
-#pantalla{
+#pantalla {
     background-color: black;
     width: 92%;
     height: 75%;
-    border:#b30909 9px groove;
+    border: #b30909 9px groove;
     border-radius: 13px;
     /* background-image: url(/images/pantallafondo.png); */
     background-position: center center;
     background-size: 345px;
-    background-image: url(/images/gif2.gif);
+    background-image: url(../images/gif2.gif);
 
 }
-    
+
 /* PEGATINA GAME Y WATCH */
 
-#pegatina1{
+#pegatina1 {
     background-color: green;
-    width:50px;
+    width: 50px;
     height: 50px;
 }
 
 /* ------------------------------- */
-.izquierda{
+.izquierda {
     width: 27.5%;
     height: 100%;
-    
+
 }
 
-.derecha{
+.derecha {
     width: 27.5%;
     height: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    
+
 }
 
-.pegatina{
+.pegatina {
     width: 100%;
     height: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-   
+
+
 }
-.cruceta{
+
+.cruceta {
     width: 100%;
     height: 50%;
-  
+
 }
 
 
-      
 
-.botonayb{
+
+.botonayb {
     width: 100%;
     height: 50%;
-   
+
 }
-#pegatina{
+
+#pegatina {
     border: black 1px solid;
     border-radius: 5px;
 }
 
-.cruceta{
+.cruceta {
     width: 50%;
     height: 50%;
 }
 
-#logonintendo{
+#logonintendo {
     width: 100px;
 }
 
-#fuenteletras{
+#fuenteletras {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
     font-size: 13px;
@@ -150,68 +155,79 @@ body{
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      ". arriba ."
-      "izquierda centro derecha"
-      ". abajo .";
-      height: 100px;
-      width: 100px;
-      margin: auto;
-      
-  }
-  
-  .cruzarriba  { grid-area:arriba;background-image: url(/images/boton.jpg)
-    ;border-radius: 5px 5px 0px 0px;
+        ". arriba ."
+        "izquierda centro derecha"
+        ". abajo .";
+    height: 100px;
+    width: 100px;
+    margin: auto;
+
+}
+
+.cruzarriba {
+    grid-area: arriba;
+    background-image: url(../images/boton.jpg);
+    border-radius: 5px 5px 0px 0px;
     border-left: outset #b30909;
     border-right: ridge #b30909;
-    border-top: groove #b30909; 
+    border-top: groove #b30909;
 }
-  
-  .cruzizquierda { 
+
+.cruzizquierda {
     grid-area: izquierda;
-    background-image: url(/images/boton.jpg);
-     border-radius: 5px 0px 0px 5px; 
-     border-bottom: ridge #b30909;
-     border-left: outset #b30909;
-     border-top: groove #b30909;
-    }
-  
-  .cruzabajo { grid-area: abajo;background-image: url(/images/boton.jpg);
+    background-image: url(../images/boton.jpg);
+    border-radius: 5px 0px 0px 5px;
+    border-bottom: ridge #b30909;
+    border-left: outset #b30909;
+    border-top: groove #b30909;
+}
+
+.cruzabajo {
+    grid-area: abajo;
+    background-image: url(../images/boton.jpg);
     border-radius: 0px 0px 5px 5px;
     border-bottom: ridge #b30909;
     border-left: outset #b30909;
     border-right: ridge #b30909;
 
-    
+
 }
-  
-  .cruzcentro { grid-area: centro; background-image: url(/images/boton.jpg);}
-  
-  .cruzderecha { grid-area: derecha;background-image: url(/images/boton.jpg);
-     border-radius: 0px 5px 5px 0px; border-bottom: ridge #b30909;
-     border-right: outset #b30909;
-     border-top: outset #b30909;
-    }
-  /* Esta parte son los botones rojos A y B-------------------------------------------- */
-.boton1{
+
+.cruzcentro {
+    grid-area: centro;
+    background-image: url(../images/boton.jpg);
+}
+
+.cruzderecha {
+    grid-area: derecha;
+    background-image: url(../images/boton.jpg);
+    border-radius: 0px 5px 5px 0px;
+    border-bottom: ridge #b30909;
+    border-right: outset #b30909;
+    border-top: outset #b30909;
+}
+
+/* Esta parte son los botones rojos A y B-------------------------------------------- */
+.boton1 {
     background-color: black;
     width: 36%;
     height: 17%;
     border-radius: 118px;
-    background-image: url(/images/texturabotonrojo.jpg);
+    background-image: url(../images/texturabotonrojo.jpg);
     border: #b30909 4px outset;
-    
+
 }
 
-.boton2{
+.boton2 {
     background-color: black;
     width: 36%;
     height: 17%;
     border-radius: 118px;
-    background-image: url(/images/texturabotonrojo.jpg);
+    background-image: url(../images/texturabotonrojo.jpg);
     border: #b30909 4px outset;
 }
 
-#A{
+#A {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 10;
     font-size: 26px;
@@ -220,9 +236,10 @@ body{
     flex-direction: column;
     align-content: space-around;
     flex-wrap: wrap;
-    
+
 }
-#B{
+
+#B {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 10;
     font-size: 26px;
@@ -231,10 +248,11 @@ body{
     flex-direction: column;
     align-content: space-around;
     flex-wrap: wrap;
-   
+
 }
+
 /* Esta parte son los botones pequeños-----------------------------------------------*/
-.container2{
+.container2 {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -242,109 +260,126 @@ body{
     align-items: center;
 }
 
-.pequenos{
+.pequenos {
     width: 36%;
     height: 37%;
     display: flex;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas:
-          ". arriba ."
-          ". centro ."
-          ". abajo .";
-         
-      }
-      
-      .centro { grid-area: centro;
-        width: 28px;
-        height: 17px;
-        border-radius: 118px;
-        background-image: url(/images/texturabotonespequeños.jpg);
-        border: #b30909 7px outset;}
-      
-      .arriba { grid-area: arriba;
-        width: 28px;
-        height: 17px;
-        border-radius: 118px;
-        background-image: url(/images/texturabotonespequeños.jpg);
-        border: #b30909 7px outset;}
-      
-        .abajo { grid-area: abajo;
-        width: 28px;
-        height: 17px;
-        border-radius: 118px;
-        background-image: url(/images/texturabotonespequeños.jpg);
-        border: #b30909 7px outset;}
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". arriba ."
+        ". centro ."
+        ". abajo .";
 
-        #PEQUENOCENTRO{
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 10px;
-            line-height: 0.1;
-        
-            
-        }
-        #PEQUENOARRIBA{
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 10px;
-            line-height: 0.1;
-          
-        }
-        #PEQUENOABAJO{
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 10px;
-            line-height: 0.1;
-            
-        } 
+}
+
+.centro {
+    grid-area: centro;
+    width: 28px;
+    height: 17px;
+    border-radius: 118px;
+    background-image: url(../images/texturabotonespequeños.jpg);
+    border: #b30909 7px outset;
+}
+
+.arriba {
+    grid-area: arriba;
+    width: 28px;
+    height: 17px;
+    border-radius: 118px;
+    background-image: url(../images/texturabotonespequeños.jpg);
+    border: #b30909 7px outset;
+}
+
+.abajo {
+    grid-area: abajo;
+    width: 28px;
+    height: 17px;
+    border-radius: 118px;
+    background-image: url(../images/texturabotonespequeños.jpg);
+    border: #b30909 7px outset;
+}
+
+#PEQUENOCENTRO {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 0.1;
+
+
+}
+
+#PEQUENOARRIBA {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 0.1;
+
+}
+
+#PEQUENOABAJO {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 0.1;
+
+}
+
 /* --------------------EFECTOS EN LOS BOTONES------------------------ */
-        .boton1:hover {
-            box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);
-            outline-color: rgba(49, 138, 172, 0);
-            outline-offset: 80px;
-            text-shadow: 1px 1px 6px rgb(255, 255, 255);
-          }
-          .boton2:hover {
-            box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);
-            outline-color: rgba(49, 138, 172, 0);
-            outline-offset: 80px;
-            text-shadow: 1px 1px 6px rgb(255, 255, 255);
-          }
+.boton1:hover {
+    box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px rgb(255, 255, 255);
+}
 
-          .centro:hover{
-            box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);
-            outline-color: rgba(49, 138, 172, 0);
-            outline-offset: 80px;
-            text-shadow: 1px 1px 6px rgb(255, 255, 255);
-            
-          }
-          .arriba:hover{
-            box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);
-            outline-color: rgba(49, 138, 172, 0);
-            outline-offset: 80px;
-            text-shadow: 1px 1px 6px rgb(255, 255, 255);
-          }
-          .abajo:hover{
-            box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);
-            outline-color: rgba(49, 138, 172, 0);
-            outline-offset: 80px;
-            text-shadow: 1px 1px 6px rgb(255, 255, 255);
-          }
-        #pantalla{
-            box-shadow: inset 0 0 40px rgba(255, 255, 255, 0.966), 0 0 20px rgba(255, 255, 255, 0.966);
-            outline-color: rgba(49, 138, 172, 0);
-            outline-offset: 80px;
-        }
-        .cruzarriba:hover{
-            box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);    
-        }
-        .cruzabajo:hover{
-            box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);    
-        }
-        .cruzderecha:hover{
-            box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);    
-        }
-        .cruzizquierda:hover{
-            box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);    
-        }
+.boton2:hover {
+    box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px rgb(255, 255, 255);
+}
+
+.centro:hover {
+    box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px rgb(255, 255, 255);
+
+}
+
+.arriba:hover {
+    box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px rgb(255, 255, 255);
+}
+
+.abajo:hover {
+    box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px rgb(255, 255, 255);
+}
+
+#pantalla {
+    box-shadow: inset 0 0 40px rgba(255, 255, 255, 0.966), 0 0 20px rgba(255, 255, 255, 0.966);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+}
+
+.cruzarriba:hover {
+    box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);
+}
+
+.cruzabajo:hover {
+    box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);
+}
+
+.cruzderecha:hover {
+    box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);
+}
+
+.cruzizquierda:hover {
+    box-shadow: inset 0 0 20px rgba(163, 161, 11, 0.966), 0 0 20px rgba(163, 161, 11, 0.966);
+}

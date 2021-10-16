@@ -7,102 +7,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arnold Carcelen ProyectoConsolaCSS</title>
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
- 
-  
+
+
 </head>
 
 <!-- <audio src="sound/Super Mario Bros. Original Theme by Nintendo (320 kbps).mp3" autoplay="autoplay" loop="loop"></audio>; -->
-<audio src="/sound/Super Mario Bros. Original Theme by Nintendo (320 kbps).mp3"autoplay="autoplay" controls="controls">  
-    <button id="boton">Play</button >
-    
-  </audio>
+<audio src="./sound/Super Mario Bros. Original Theme by Nintendo (320 kbps).mp3" autoplay="autoplay" controls="controls">
+    <button id="boton">Play</button>
+
+</audio>
 
 <body>
-  
+
     </div>
-        <div id="container">
+    <div id="container">
 
-            <div id="consola">
-                <div class="izquierda">
+        <div id="consola">
+            <div class="izquierda">
 
-                    <div class="pegatina">
+                <div class="pegatina">
 
-                        <img id="pegatina" src="/images/pegatina.png">
-                    </div>
+                    <img id="pegatina" src="./images/pegatina.png">
+                </div>
 
-                    <div class="cruceta">
-                        <div class="cruzarriba"></div>
-                        <div class="cruzizquierda"></div>
-                        <div class="cruzabajo"></div>
-                        <div class="cruzcentro"></div>
-                        <div class="cruzderecha"></div>
-
-                    </div>
+                <div class="cruceta">
+                    <div class="cruzarriba"></div>
+                    <div class="cruzizquierda"></div>
+                    <div class="cruzabajo"></div>
+                    <div class="cruzcentro"></div>
+                    <div class="cruzderecha"></div>
 
                 </div>
 
-                <div id="bordepantalla">
+            </div>
 
-                    <div id="letras">
+            <div id="bordepantalla">
 
-                        <p id="fuenteletras">SUPER MARIO BROS®</p>
+                <div id="letras">
 
+                    <p id="fuenteletras">SUPER MARIO BROS®</p>
 
-                    </div>
-
-                    <div id="pantalla">
-                        
-                    </div>
-
-                    <div id="logo">
-
-                        <img id="logonintendo" src="images/logofinal.png">
-
-                    </div>
 
                 </div>
 
-                <div class="derecha">
-                    <div class="container2">
+                <div id="pantalla">
 
-                        <div class="centro"></div>
-                        <p id="PEQUENOCENTRO"><strong>TIME</strong></p>
-                        <div class="arriba"></div>
-                        <p id="PEQUENOARRIBA"><strong>GAME</strong></p>
-                        <div class="abajo"></div>
-                        <p id="PEQUENOABAJO"><strong>PAUSE/SET</strong></p>
+                </div>
+
+                <div id="logo">
+
+                    <img id="logonintendo" src="./images/logofinal.png">
+
+                </div>
+
+            </div>
+
+            <div class="derecha">
+                <div class="container2">
+
+                    <div class="centro"></div>
+                    <p id="PEQUENOCENTRO"><strong>TIME</strong></p>
+                    <div class="arriba"></div>
+                    <p id="PEQUENOARRIBA"><strong>GAME</strong></p>
+
+                    <script>
+                        const button = document.getElementsByClassName("arriba");
+
+                        button.addEventListener("click", () => {
+                            let etiquetaAudio = document.createElement("audio")
+                            etiquetaAudio.setAttribute("src", "/sound/")
+                            etiquetaAudio.play()
+                        })
+                    </script>
+                    <div class="abajo"></div>
+                    <p id="PEQUENOABAJO"><strong>PAUSE/SET</strong></p>
+
+                </div>
+
+                <div class="pequenos">
+
+                </div>
+
+                <div class="boton1">
+
+                    <div class="botoni">
 
                     </div>
 
-                    <div class="pequenos">
+                    <p id="B">B</p>
 
-                    </div>
+                </div>
+                <div class="boton2">
 
-                    <div class="boton1">
+                    <div class="botond">
 
-                        <div class="botoni">
+                        <p id="A">A</p>
 
-                        </div>
-
-                        <p id="B">B</p>
-
-                    </div>
-                    <div class="boton2">
-
-                        <div class="botond">
-
-                            <p id="A">A</p>
-
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     <div>
-            <div id="mario3d" src="images/super-mario-bros.gif">
-            
-            </div>
-        
+        <div id="mario3d" src="./images/super-mario-bros.gif">
+
+        </div>
+
 
 </body>
 
