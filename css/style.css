@@ -4,7 +4,14 @@ body{
     margin: 0;
     background-image: url(/images/fondonuevo.jpg);
 }
-
+#mario3d{
+    height: 27vh;
+    background-image: url(/images/super-mario-bros.gif);
+    display: flex;
+    flex-direction: row;
+    margin-right: 1600px;
+    display: flex;
+}
 #container{
     display: flex;
     justify-content: center;
