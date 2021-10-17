@@ -19,7 +19,7 @@ ademas hay un minirreproductor arriba a la izquierda donde puedes darle play o p
   <img src="/images/gif2.gif" width="500" title="hover text">
 </p>
 
---------Efecto hover--------
+--------Efecto hover en botones,la pantalla tiene un efecto blanco para dar sensación de estar encendida--------
 <p aling="center">
   <img src="/images/efecto hover.png" width="500" title="hover text">
 </p>
