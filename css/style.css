@@ -5,9 +5,12 @@ body {
     background-image: url(../images/fondonuevo.jpg);
 }
 
+/*  cambio de cursor */
+
 html{
     cursor: url(../images/Big\ Mario\ -\ Help\ Select.cur),auto;
 }
+
 #mario3d {
     height: 27vh;
     background-image: url(../images/super-mario-bros.gif);
@@ -17,12 +20,16 @@ html{
     display: flex;
 }
 
+/* contenedor de todos los divs */
+
 #container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 28vh;
 }
+
+/* div de la consola general */
 
 #consola {
     position: relative;
