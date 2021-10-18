@@ -19,7 +19,6 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 28vh;
-
 }
 
 #consola {
@@ -34,11 +33,7 @@ body {
     justify-content: space-around;
     align-items: center;
     border: #b30909 15px outset;
-
-
-
 }
-
 
 /* LO QUE RODEA LA PANTALLA */
 
@@ -53,8 +48,6 @@ body {
     border: #B39874 15px outset;
     background-image: url(../images/textura\ consola.png);
     flex-direction: column;
-
-
 }
 
 /* LA PANTALLA */
@@ -69,7 +62,6 @@ body {
     background-position: center center;
     background-size: 345px;
     background-image: url(../images/gif2.gif);
-
 }
 
 /* PEGATINA GAME Y WATCH */
@@ -112,9 +104,6 @@ body {
     height: 50%;
 
 }
-
-
-
 
 .botonayb {
     width: 100%;
@@ -234,7 +223,6 @@ body {
     flex-direction: column;
     align-content: space-around;
     flex-wrap: wrap;
-
 }
 
 #B {
@@ -246,7 +234,6 @@ body {
     flex-direction: column;
     align-content: space-around;
     flex-wrap: wrap;
-
 }
 
 /* Esta parte son los botones pequeños-----------------------------------------------*/
@@ -271,7 +258,6 @@ body {
         ". arriba ."
         ". centro ."
         ". abajo .";
-
 }
 
 .centro {
